@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+    <ImageView
+
+        android:src="@drawable/ameklou"
+        android:id="@+id/ameklou"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eklou Amemassovor"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/background_dark"/>
+    <TextView
+        android:padding="10dp"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track: Android"/>
+    <TextView
+        android:padding="10dp"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country: Togo"/>
+    <TextView
+        android:padding="10dp"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: amekley@gmail.com"/>
+    <TextView
+        android:padding="10dp"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: 0022890620761"/>
+    <TextView
+        android:padding="10dp"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slack Username: @ameklou"/>
+
+
+
+</LinearLayout>
